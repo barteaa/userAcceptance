@@ -1,0 +1,211 @@
+body {
+  font-size: 20pt;
+  font-family: BellMTStd-Regular,serif;
+  color: black;
+  padding: 5pt 5pt 0pt 5pt;
+}
+h1 {
+  font: 14pt;
+  font-weight: bold;
+  line-height: 20pt;
+}
+p {
+ padding: 10px;
+}
+img {
+ width: 100%;
+ height: auto;
+}
+
+/* header */
+.header {
+  background-color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.header h1 {
+  color: #fff;
+  overflow: auto;
+  margin: 0px;
+  padding: 5px;
+}
+.header p {
+  color: #fff;
+  margin: 0px;
+  padding: 5px;
+  margin: 10px;
+  float: right;
+}
+
+/* menu */
+
+ul.menu, ul.menu ul {
+      list-style-type: none;
+      padding: 5px;
+      margin: 0px;
+      overflow: auto;
+}
+ul.menu li ul {
+  display: none;
+  position: absolute;
+}
+ul.menu > li:hover > ul {
+  display: block;
+}
+ul.menu li {
+  float: left;
+}
+ul:after{
+ content:'';
+ clear:both;
+ display:block;
+}
+ul.menu a {
+  padding: 10px;
+  color: #fff;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  display: block;
+
+}
+ul.menu a:hover {
+  background-color: #3162ba;
+}
+ul.menu > li > ul > li > a{
+  background-color: black;
+}
+/* main */
+.main {
+  background-color: black;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.section-2 {
+  padding: 5px 0px;
+  margin: 10px 0px;
+  background-color: #fff;
+}
+.section {
+  padding: 5px;
+  margin: 10px 5px;
+  background: grey;
+  margin-bottom: 2px;
+}
+.section h2 {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+.section-2 h2{
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+table {
+  margin: 0px auto;
+}
+.section-2 table, th, td {
+  border: 1px solid black;
+}
+
+.section p {
+  margin: 10px;
+}
+.section-2 p {
+  margin: 10px;
+}
+.main-2 {
+  text-align: center;
+  background-color: #D3D3D3;
+}
+.main-2 h2 {
+  padding-top: 10px;
+  background-color: grey;
+  color: #fff;
+}
+.banner-image {
+  position: relative;
+  display: inline-block;
+  opacity: 0.6;
+  padding-top: 10px;
+  width: 100%;
+}
+.banner-text{
+  position: absolute;
+  top: 1%;
+  padding: 5px !important;
+  color: #fff !important;
+  font-size: 40px;
+}
+.winning h2 {
+  padding: 5px;
+}
+.footer {
+  background-color: #383838;
+  text-align: center;
+}
+.footer div {
+  padding: 10px
+}
+.contact {
+  padding-bottom: 0px;
+  background-color: #fff;
+  color: cornflowerblue;
+}
+.contact p {
+  padding-top: 0px;
+  font-style: italic;
+  font-size: 8pt;
+}
+.trophies {
+  background-color: #CFB53B;
+  text-align: center;
+}
+.trophies h1 {
+  padding: 10px;
+}
+.social h2 {
+  margin-bottom: 10px !important;
+}
+.social  img {
+  width: 50px;
+  height: auto;
+}
+.weather span {
+  font-style: italic;
+  font-size: 8pt;
+  color: #fff;
+}
+.weather h2{
+  color: #fff;
+}
+.weather div {
+  margin: 0px auto;
+}
+.footer-pic {
+  height: 50px;
+}
+.footer-pic img {
+  height: 100%;
+  background-repeat: repeat;
+  margin-top: -30px;
+}
+.footer h2 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.quote-1 {
+  color: grey;
+  background-color: white;
+}
+.copyright {
+  font-size: 8pt;
+  text-align: center;
+  padding: 10px 0px;
+  color: grey;
+}
